@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Silkscreen:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Анкета</title>
+
+</head>
+
+<body>
+    <form action="https://formsubmit.co/anisimov.mc@gmail.com" method="POST">
+
+        <main>
+            <center>
+                <img src="./img/Serg.PNG" class="serega"><br>
+            </center>
+
+            <fieldset>  
+                <h3>Информация о свадьбе</h3>  
+                    <label for="names">Ваши имена<br>
+                        <input name="names" type="text" required></label>
+                        <br><br>
+                    <label for="date">Дата свадьбы<br><input class="date" name="date" type="date" required ></label>
+                        <br><br>
+                    <label for="timeIn">Начало в<br><input class="timeIn" name="timeIn" type="time" required></label>
+                        <br><br>
+                    <label for="place">Место проведения<br><input name="place" type="text" required></label>
+                        <br><br>
+                    <label for="adress">Адрес заведения<br><input name="adress" type="text" required placeholder="Город, улица, дом"></label>
+                        <br><br>
+                    <label for="tel">Телефон администратора<br><input name="tel" type="tel" required ></label>
+                        <br><br>
+                    <label  for="guests">Количество гостей<br><input  type="number" name="guests" required >
+                    </label>
+                        <br><br>
+                    <label for="meet">Расскажите как вы познакомились<br><textarea name="meet"></textarea></label>
+                        <br><br>
+                    <label for="moments">Какаие самые яркие моменты вы пережили вместе<br><textarea name="moments"></textarea></label>
+                        <br><br>
+            </fieldset>
+
+            <fieldset>
+                <input type="button" class="open" value="Информация о невесте"> 
+                    <div class="content">
+                        <h3>Информацияо о невесте</h3>
+                            <br>
+                        <input name="age-wife" type="date"></label>
+                            <br><br>
+                        <label for="business-wife">Род занятий<br><input name="business-wife" type="text"></label>
+                            <br><br>
+                        <label for="hobby-wife">Хобби<br><input name="hobby-wife" type="text"></label>
+                            <br><br>
+                        <label for="interes-wife">Чем еще увлекаешься<br><input name="interes-wife" type="text"></label>
+                            <br><br>
+                        <label for="father-wife">Как зовут папу<br><input name="father-wife" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="tel-father-wife">Телефон папы<br><input name="tel-father-wife" type="tel"  ></label>
+                            <br><br>
+                        <label for="mother-wife">Как зовут маму<br><input name="mother-wife" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="tel-mother-wife">Телефон мамы<br><input name="tel-mother-wife" type="tel"  ></label>
+                            <br><br>
+                        <label for="grandfa-wife">Как зовут дедушку<br><input name="grandfa-wife" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="grandma-wife">Как зовут бабушку<br><input name="grandma-wife" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="bro-wife">Как зовут брата<br><input name="bro-wife" type="text" placeholder="Имя"></label>
+                            <br><br>
+                        <label for="sis-wife">Как зовут сестру<br><input name="sis-wife" type="text" placeholder="Имя"></label>
+                            <br><br>
+                        </div>
+            </fieldset>
+
+            <fieldset>
+                <input type="button" class="open" value="Информация о женихе" > 
+                    <div class="content">
+                            <h3>Информацияо о женихе</h3>
+                        <label for="age-husband">Дата рождения<br><input name="sage-husband" type="date"></label>
+                            <br><br>
+                        <label for="business-husband">Род занятий<br><input name="business-husband" type="text"></label>
+                            <br><br>
+                        <label for="hobby-husband">Хобби<br><input name="hobby-husband" type="text"></label>
+                            <br><br>
+                        <label for="interes-husband">Чем еще увлекаешься<br><input name="interes-husband" type="text"></label>
+                            <br><br>
+                        <label for="father-husband">Как зовут папу<br><input name="father-husband" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="tel-father-husband">Телефон папы<br><input name="tel-father-husband" type="tel" ></label>
+                            <br><br>
+                        <label for="mother-husband">Как зовут маму<br><input name="mother-husband" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="tel-mother-husband">Телефон мамы<br><input name="tel-mother-husband" type="tel" ></label>
+                            <br><br>
+                        <label for="grandfa-husband">Как зовут дедушку<br><input name="grandfa-husband" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="grandma-husband">Как зовут бабушку<br><input name="grandma-husband" type="text" placeholder="Имя отчество"></label>
+                            <br><br>
+                        <label for="bro-husband">Как зовут брата <br><input name="bro-husband" type="text" placeholder="Имя"></label>
+                            <br><br>
+                        <label for="sis-husband">Как зовут сестру <br><input name="sis-husband" type="text" placeholder="Имя"></label>
+                            <br><br>     
+                    </div>            
+            </fieldset>
+                       
+            <fieldset>
+                <input type="button" class="open" value="Остальные опции" > 
+                    <div class="content">
+                        <h3>Кто еще будет работать на вашей свадьбе<br></h3>                
+                        <label for="video">Видеограф<br><input type="text" name="video" placeholder="Имя, телефон"/>
+                        </label>
+                            <br><br>
+                        <label for="foto">Фотограф<br><input type="text" name="foto" placeholder="Имя, телефон"/>
+                        </label>
+                            <br><br>
+                        <label for="show">Шоу-программа<br><input type="text" name="show" placeholder="Имя, телефон"/>
+                        </label>
+                            <br><br>
+                        <label for="cover-band">Кавер-группа<br><input type="text" name="cover-band" placeholder="Имя, телефон"/>
+                        </label>
+                            <br><br>
+                        <label for="moments">Примечания и пожелания от вас<br><textarea name="moments"></textarea></label>
+                    </div>
+            </fieldset>
+
+        </main>
+
+        <DJ>
+            <fieldset>
+                <input type="button" class="open" value="Анкета музыкальная" > 
+                <div class="content">
+                    <h3>У ди-джея, конечно же, есть очень хорошие подборки совершенно разной музыки, но для точного попадания, давайте сориентируем его в ваших музыкальных предпочтениях)</h3>
+                    <label for="favorite">Топ-15 ваших самых любимых танцевальных композиций
+                    (можно ссылки на плейлисты: apple music,Yandex music, spotify, vk или другой)<br><textarea name="favorite"></textarea></label>
+                        <br><br>
+                    <label for="fm">Ваши любимые радиостанции:<br><textarea name="fm"></textarea></label>
+                        <br><br>
+                    <label for="style">Общие музыкальные предпочтения по музыкальным стилям и, может быть, эпохам (например, зарубежное диско 80-х, качественное техно 2000-х, российская попса 10-х… их может быть несколько)<br><textarea name="style"></textarea></label>
+                        <br><br>
+                    <label for="black-list">«Чёрный список» – то, что вы, возможно, слышали у кого-то на свадьбе и Вам не понравилось. Или то, что совсем не хочется, чтобы звучало у Вас на празднике<br><textarea name="black-list"></textarea></label>
+                        <br><br>
+                    <label for="first-dance">Композиция для вашего первого танца (исполнитель, название песни)<br><textarea name="first-dance"></textarea></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                    <input type="button" class="open" value="Выездная регистрация" > 
+                <div class="content">
+                    <h4>(если планируется)</h4>
+                    <label for="enter-husband">Трек на выход жениха <br><textarea name="enter-husband"></textarea></label>
+                        <br><br>
+                    <label for="enter-wife">Трек на выход невесты <br><textarea name="enter-wife"></textarea></label>
+                        <br><br>
+                    <label for="husband-friends">Трек на выход друзей жениха <br><textarea name="husband-friends"></textarea></label>
+                        <br><br>
+                    <label for="wife-friends">Трек на выход подружек невесты <br><textarea name="wife-friends"></textarea></label>
+                        <br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <input type="button" class="open" value="Музыкальное настроение" > 
+                    <div class="content">
+                    <h3>Постарайтесь отвечать на cледующие вопросы с улыбкой</h3>
+                    <label for="rain">Трек, под который вам хочется танцевать под дождём<br><textarea name="rain"></textarea></label>
+                        <br><br>
+                    <label for="shower">Песня, которую можно мурлыкать в дУше<br><textarea name="shower"></textarea></label>
+                        <br><br>
+                    <label for="tiser">Если вам захочется совершить подвиг, под какую музыку это лучше всего смотрелось бы<br><textarea name="tiser"></textarea></label>
+                        <br><br>
+                    <label for="ost">Любимый саундтрек к фильму<br><textarea name="ost"></textarea></label>
+                        <br><br>
+                    <label for="speed">Трек, под который хочется превысить скорость?<br><textarea name="speed"></textarea></label>
+                        <br><br>
+                    <label for="old-friend">Трек для встречи со старым другом<br><textarea name="old-friend"></textarea></label>
+                        <br><br>
+                    <label for="ringtone">Рингтон, которуый вы бы поставили на звонок друг друга (можно 2 песни)<br><textarea name="ringtone"></textarea></label>
+                        <br><br>
+                    <label for="sport">Трек для занятия спортом<br><textarea name="sport"></textarea></label>
+                        <br><br>
+                    <label for="married">Идеальная музыкальная композиция для предложения руки и сердца<br><textarea name="married"></textarea></label>
+                        <br><br>
+                </div>
+            </fieldset>
+        </DJ> 
+            <center>
+                <button type="submit" class="btn">Отправить</button>
+            </center>
+    </form>
+   
+
+
+
+
+<!-- Колесо медового месяца -->
+            <fieldset class="honeymoon">
+<h3>Если вы еще не решили, где хотите провести медовый месяц, крутаните колесо</h3>
+    <div class="container">
+        <div id="spin" class="spinBtn">spin</div>
+        <button id="spinBtn">Spin</button>
+        <div class="wheel">
+            <div class="number" style="--i:1;--clr:#db7093;"><span>Испания</span></div>
+            <div class="number" style="--i:2;--clr:#20b2aa;"><span>Тайланд</span></div>
+            <div class="number" style="--i:3;--clr:#d63e92;"><span>Анапа</span></div>
+            <div class="number" style="--i:4;--clr:#daa520;"><span>Турция</span></div>
+            <div class="number" style="--i:5;--clr:#ff340f;"><span>Индия</span></div>
+            <div class="number" style="--i:6;--clr:#ff7f50;"><span>Вьетнам</span></div>
+            <div class="number" style="--i:7;--clr:#3cb371;"><span>Бора-Бора</span></div>
+            <div class="number" style="--i:8;--clr:#4169e1;"><span>Португалия</span></div>
+        </div>
+    </div>
+   
+    </fieldset>
+    <br>
+    <script src="./js/script.js"></script>
+</body>
+</html>
